@@ -43,7 +43,6 @@ function flipCard (cardId) {
 	console.log(cards[cardId].cardImage);
 	console.log(cards[cardId].suit);
 
-	// checkForMatch();
 
 }
 
@@ -52,6 +51,7 @@ function flipCard (cardId) {
 
 flipCard(0);
 flipCard(2);
+checkForMatch();
 
 
 
